@@ -28,3 +28,4 @@ You should keep your json-server data simple: avoid nested data and associations
 5. Add some styling: you're encouraged to write your CSS from scratch, either by using styled components or writing CSS files and using id/className to style your elements. You can also incorporate a UI framework (like React Bootstrap, Semantic UI, or Material UI) if you prefer.
 Shortcuts:
 rafce
+shift + alt + downarrow copy line down
