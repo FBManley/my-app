@@ -1,17 +1,8 @@
-import React, { useEffect} from 'react'
-import Globals, { baseApi } from "./Globals"
+import React from 'react'
 
-export const RecipeList = () => {
-    useEffect(() => {
-        fetch(baseApi)
-        .then(resp => resp.json())
-        .then(data => console.log(data))
-      }, [])
+ const RecipeList = () => {
   return (
-    <div>
-        <div>RecipeList</div>
-        <div>Dropdown</div>
-    </div>
+    <div>RecipeList</div>
   )
 }
 
