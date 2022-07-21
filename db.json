@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "username": "Jake",
+      "id": 1
+    },
+    {
+      "username": "Yope",
+      "id": 2
+    },
+    {
+      "username": "er",
+      "id": 3
+    },
+    {
+      "username": "Guest",
+      "id": 4
+    },
+    {
+      "username": "dfsa",
+      "id": 5
+    },
+    {
+      "username": "Jump",
+      "id": 6
+    },
+    {
+      "username": "Jake1",
+      "id": 7
+    },
+    {
+      "username": "Jacob",
+      "id": 8
+    }
+  ]
+}
