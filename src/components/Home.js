@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
     <div>Cocktail Hour</div>
-    <p>Instructions: Use ingrediant list to build your own cocktail.  </p>
+    <p>Instructions: Use ingredient list to build your own cocktail.  </p>
     </div>
   )
 }

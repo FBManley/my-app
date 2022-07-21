@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,21 +14,18 @@ import RecipeList  from './components/RecipeList';
 import RecipeCard from './components/RecipeCard';
 import RecipeForm from './components/RecipeForm';
 
-
-
 function App() {
-
-  
   return (
     <Router>
-      <NavBar loggedIn={ loggedIn } logoutUser= { logoutUser }/>
+    
       <Routes>
+        
         <Route exact path="/" component={<Home />}/>
-        <Route exact path="/login" element={<Login />}/>
-        <Route exact path="/signup" element={ <SignUp />}/>
-        <Route exact path="/recipelist" element={<RecipeList />}/>
-        <Route exact path="/recipecard" element={<RecipeCard />}/>
-        <Route exact path="/recipe/new" element={ <RecipeForm />}/> 
+        <Route path="/login" component={<Login />}/>
+        <Route path="/signup" component={ <SignUp />}/>
+        <Route path="/recipelist" component={<RecipeList />}/>
+        <Route path="/recipecard" component={<RecipeCard />}/>
+        <Route path="/recipe/new" component={ <RecipeForm />}/> 
       </Routes>
     </Router>
   );

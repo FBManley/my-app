@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const RecipeForm = () => {
+ const RecipeForm = () => {
   return (
     <div>RecipeForm</div>
   )
