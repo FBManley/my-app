@@ -1,11 +1,17 @@
+# RecipeMe
+    Requires update to next.js
+    Created using React tailwind, and integrated with a JSON format database 
+    Enables users to browse, like and add their favorite drinks promoting an interactive user experience    
+    <!-- Showcase simple javascript principles 1 of 3 for personal website -->
+    
+# RUN ME 
+   $ npm install
+   $ npm start 
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 

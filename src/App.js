@@ -17,9 +17,7 @@ import RecipeForm from './components/RecipeForm';
 function App() {
   return (
     <Router>
-    
       <Routes>
-        
         <Route exact path="/" component={<Home />}/>
         <Route path="/login" component={<Login />}/>
         <Route path="/signup" component={ <SignUp />}/>
